@@ -1,4 +1,4 @@
-"""Run a preserved analysis script in an isolated, portable working directory.
+"""Run an analysis script in an isolated, portable working directory.
 
 Only the original workstation path prefix is substituted in memory. Scientific
 code remains unchanged, including the limitations described in the release
@@ -17,7 +17,7 @@ LEGACY_ROOT = '/Users/sepehrmaleki/Documents/spring 2026/helico pilouri'
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('script', help='Historical filename, e.g. 07c_bayesian_hierarchical.py')
+    parser.add_argument('script', help='Analysis script filename, e.g. 07c_bayesian_hierarchical.py')
     parser.add_argument('--work-dir', required=True, type=Path, help='New directory for copied inputs and outputs')
     parser.add_argument('--prepare-only', action='store_true', help='Check paths and copy inputs without fitting models')
     parser.add_argument('--source-pdfs', type=Path, help='Optional privately obtained primary-report PDFs')
@@ -26,7 +26,7 @@ def main():
         parser.error('Pass a filename from scripts/, not an arbitrary path.')
     source = ROOT / 'scripts' / args.script
     if not source.is_file() or not args.script.startswith(('01_', '02_', '03_', '03b_', '03c_', '04_', '05_', '06_', '06b_', '07_', '07b_', '07c_', '07d_', '07e_', '07f_', '07g_', '08_', '09_', '10_', '10b_')):
-        parser.error('Select a historical analysis script; manuscript exporters need the separately maintained manuscript.')
+        parser.error('Select an analysis script; manuscript exporters need the separately maintained manuscript.')
     work = args.work_dir.resolve()
     if work.exists():
         parser.error('Use a new working directory so existing results cannot be overwritten.')

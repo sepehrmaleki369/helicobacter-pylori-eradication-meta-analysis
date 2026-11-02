@@ -1,17 +1,13 @@
 {
   "snapshot_date": "2026-11-02",
-  "purpose": "Public re-upload of existing analysis artifacts with documented unresolved checks",
+  "purpose": "Data, analysis code, saved models and supporting documentation",
   "repository_url": "https://github.com/sepehrmaleki369/helicobacter-pylori-eradication-meta-analysis",
-  "backed_up_remote_main_ref": "45820bf170f068c8dae4281555b7eb9a4a068dbd",
   "analysis_cohort": {
     "studies": 60,
     "arms": 140,
     "patients": 17887,
     "columns": 76
   },
-  "input_data_changed": false,
-  "model_fits_changed": false,
-  "historical_scripts_changed": false,
   "readiness": "Artifact inventory verified; scientific data consistency and licensing questions remain documented. This is not a final scientific validation.",
   "files": {
     ".gitignore": {
@@ -23,12 +19,8 @@
       "sha256": "9bf3997ab6f410f9766947b34f35b406da36eb7754ac81cd161440eb5afe10eb"
     },
     "README.md": {
-      "bytes": 1540,
-      "sha256": "4bec08d2be64db264ebfae7e8eeccbbebcaaf2befb36c95f7c586705e2be4bb2"
-    },
-    "REUPLOAD_NOTICE.md": {
-      "bytes": 567,
-      "sha256": "892223f98dde1b4c0cb087c9f7a9fba0279efa55db72c28622c1c4bb333f3c4e"
+      "bytes": 4437,
+      "sha256": "8bb788b0656a4f4cb65e364ce27dfcbf3020e314d17749bc0b5d21561452e2a3"
     },
     "data/arm_dataset_with_resistance.csv": {
       "bytes": 44841,
@@ -67,8 +59,8 @@
       "sha256": "265ff77bd881c17e319e8fef0a0d42bf40ad9532692bbd16a41c1efa7d175076"
     },
     "docs/REPRODUCIBILITY.md": {
-      "bytes": 2150,
-      "sha256": "d72baf0481cf1482e5f75f44d2c0f4b6d179231519e3078841a236c86a7e429d"
+      "bytes": 2139,
+      "sha256": "1c82d449861c849f49dcb583afd20cd41ada6c4e625b5051b782131acab7e63e"
     },
     "figures/MAIN_FIGURES/CAPTIONS.md": {
       "bytes": 5435,
@@ -431,8 +423,8 @@
       "sha256": "70d555686effb47ceaa14af5bc81380d5198c567b1e2e6acb2be8ce9cb5f6186"
     },
     "provenance/repository_audit.json": {
-      "bytes": 3593,
-      "sha256": "6d8eaff7ac5338b3d2e89a843805163766e526e2aa9b3bcc930171b09bacb514"
+      "bytes": 3383,
+      "sha256": "d71e7b4b5c326b038ef006eed323c02dbf6a67aa0cc2d8b2fda04ef4c609654d"
     },
     "provenance/search_update/complete_export_verification.json": {
       "bytes": 1876,
@@ -623,16 +615,16 @@
       "sha256": "0c328030ea5d5efddbe477690d76f8e92a05a5b78d60534a27592761961819c6"
     },
     "scripts/11_build_word_export.py": {
-      "bytes": 14073,
-      "sha256": "897cba55bbd64f065be23518c126bf5d7fea7dc71c1dcade06c5785d6cd5dbe8"
+      "bytes": 14094,
+      "sha256": "9b2be507fe48b7fd8a918782c8b4fdac6e3fde36b20d7d0dd02430529727fd66"
     },
     "scripts/12_build_submission_docx.py": {
       "bytes": 13150,
       "sha256": "a772c54baa5fe62780d9014e78131b267feea2bd7d5a09879e7bc6044052227f"
     },
-    "scripts/run_historical_analysis.py": {
-      "bytes": 3612,
-      "sha256": "aea9286c4d519a41c80f3fbe9d51b9b03976da5f17c7ac7e1ab1ac6fc143bc07"
+    "scripts/run_analysis.py": {
+      "bytes": 3598,
+      "sha256": "55be86d48670a02378c67c2caaaa8340ddc1e50a17817aaa44330db9d2850061"
     },
     "scripts/verify_cached_results.py": {
       "bytes": 3842,

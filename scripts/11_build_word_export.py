@@ -228,7 +228,7 @@ for name, arg in SECTIONS:
         for lab, body in [
             ("Ethics approval and consent to participate.", "Not applicable. This study is a meta-analysis of previously published, ethically approved randomised controlled trials. No primary patient data were collected."),
             ("Consent for publication.", "Not applicable."),
-            ("Availability of data and materials.", "The harmonised dataset, all analysis code, the deployable predictive model, model card, and a frozen pipeline manifest are publicly available at https://github.com/sepehrmaleki369/hpylori-bayesian-meta-ml."),
+            ("Availability of data and materials.", "The harmonised dataset, all analysis code, the deployable predictive model, model card, and a frozen pipeline manifest are publicly available at https://github.com/sepehrmaleki369/helicobacter-pylori-eradication-meta-analysis."),
             ("Competing interests.", "The authors declare no competing interests."),
             ("Funding.", "This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors."),
             ("Authors' contributions.", "SM conceived the study, performed the literature search and data extraction, developed the analysis pipeline, carried out the statistical and machine-learning analyses, and drafted the manuscript. HMS contributed clinical and methodological expertise, performed the Cochrane Risk of Bias 2.0 assessment of all included trials, adjudicated trial eligibility, and critically revised the manuscript. Both authors read and approved the final manuscript."),

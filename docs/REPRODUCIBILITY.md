@@ -6,7 +6,7 @@ CSVs and all 72 saved model artifacts are byte-identical. The raw upstream CSVs
 represent historical construction stages, not interchangeable final cohorts.
 
 Twenty-two historical scripts contain 55 absolute workstation-path literals.
-`scripts/run_historical_analysis.py` provides a portable entry point without
+`scripts/run_analysis.py` provides a portable entry point without
 changing the historical scripts. It copies data/models/RoB inputs into a new
 working directory using the original project subdirectory layout, then substitutes
 only the old root prefix in the code in memory. Published inputs stay untouched.

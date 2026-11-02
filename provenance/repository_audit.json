@@ -1,6 +1,5 @@
 {
   "date": "2026-11-02",
-  "original_repository": "hpylori-bayesian-meta-ml",
   "arms": 140,
   "studies": 60,
   "patients": 17887,
@@ -96,10 +95,6 @@
   "new_search_screening_complete": false,
   "models_refitted": false,
   "data_corrections_applied": false,
-  "remote_repository_deleted": false,
-  "remote_write_connection_available": true,
   "ready_to_claim_full_reproduction": false,
-  "remote_deletion_scope_available": false,
-  "repository_private": true,
   "local_source_pdf_coverage": 60
 }
