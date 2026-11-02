@@ -1,0 +1,39 @@
+Extended EDA — Round 2 dataset (144 arms)
+============================================================
+
+── Missing data summary ──
+  Study_Era                         47.2% missing
+  Compliance_pct                    45.8% missing
+  Mean_Age_yr                       30.3% missing
+  Amox_Daily_mg                      9.2% missing
+
+── Top 15 univariate associations (Spearman ρ vs ITT_Rate) ──
+Feature                                   ρ    p-value
+  Has_Clarithromycin                   -0.351     0.0000 *
+  CLR_use_x_CLR_resistance             -0.335     0.0000 *
+  Is_Vonoprazan                        +0.291     0.0005 *
+  LFX_Resistance_pct                   +0.277     0.0009 *
+  Is_Triple                            -0.254     0.0023 *
+  PPI_Daily_mg                         -0.245     0.0033 *
+  CLR_Resistance_pct                   +0.235     0.0049 *
+  Is_PCAB                              +0.229     0.0061 *
+  Is_Standard_PPI                      -0.225     0.0072 *
+  Amox_Daily_mg                        +0.202     0.0218 *
+  Study_Era                            +0.199     0.0871  
+  Is_South_Asia_ME                     -0.181     0.0313 *
+  Duration_Days                        +0.160     0.0574  
+  Is_Dual                              +0.146     0.0831  
+  Is_Southeast_Asia                    +0.142     0.0913  
+
+── Top 10 outliers (residuals from simple 3-feature OLS) ──
+ Ref      Arm_Label  ITT_Rate  N_ITT   residual
+  48      RFDT-Dual      48.1     52 -33.096541
+  99         TT-10d      45.0     62 -30.895870
+  91 ESO-CLR-Triple      55.6    135 -25.217995
+  99 Sequential-10d      50.7     71 -25.195870
+  99         TT-14d      54.8     73 -24.352391
+  44        L-VA-7d      58.3     84 -22.793784
+  44  VAC-Triple-7d      60.7     61 -20.393784
+  53  BQT-Quadruple      61.3    111 -20.085814
+  44        H-VA-7d      63.5     85 -17.593784
+  51      HDDT-Dual      65.7    108 -17.389273

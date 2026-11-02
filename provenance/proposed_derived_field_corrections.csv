@@ -1,0 +1,5 @@
+﻿Ref,Arm_Label,field,stored_value,candidate_value,N_ITT,ITT_Rate,evidence,decision
+36,EACM-Quadruple,Successes_ITT,104,105,120,87.5,Tai 2019 Table 2 directly reports 105/120; abstract has 86.7% typo.,PROPOSED_CORRECTION_NOT_APPLIED; clinical confirmation and affected refits needed
+36,EACM-Quadruple,ITT_Prop,0.867,0.875,120,87.5,Tai 2019 Table 2 directly reports 105/120 = 87.5%; prior ITT_Prop remains 0.867.,PROPOSED_CORRECTION_NOT_APPLIED; affected analyses need checking
+50,HDDT-Dual,Successes_ITT,88,83,103,80.6,"Yadollahi 2022 pp174-175 and Flow Chart 1: denominators 103 dual / 114 concomitant; rates 80.6% / 81.6%. Counts are inferred from rounded rates, not directly printed.",PROPOSED_CORRECTION_NOT_APPLIED; clinical confirmation and affected refits needed
+50,Concomitant-Quad,Successes_ITT,88,93,114,81.6,"Yadollahi 2022 pp174-175 and Flow Chart 1: denominators 103 dual / 114 concomitant; rates 80.6% / 81.6%. Counts are inferred from rounded rates, not directly printed.",PROPOSED_CORRECTION_NOT_APPLIED; clinical confirmation and affected refits needed

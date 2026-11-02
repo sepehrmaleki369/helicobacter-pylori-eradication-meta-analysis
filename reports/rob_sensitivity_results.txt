@@ -1,0 +1,30 @@
+Risk-of-bias sensitivity analysis
+==========================================================================
+
+Trials judged at high risk of bias : [np.int64(81), np.int64(89), np.int64(90), np.int64(99)]
+Trials not yet assessed           : []
+
+── Vonoprazan effect, cluster-robust binomial GLM ──
+Analysis set                          arms  studies     OR            95% CI         p
+Primary analysis (all arms)            140       60   1.65  [ 1.24,  2.20]    0.0006
+Excluding high-RoB trials              129       56   1.56  [ 1.17,  2.09]    0.0023
+Excluding high-RoB + unassessed        129       56   1.56  [ 1.17,  2.09]    0.0023
+Low-RoB trials only                     55       25   1.63  [ 1.17,  2.28]    0.0041
+
+── Vonoprazan effect, paired random-effects meta-analysis (DerSimonian-Laird) ──
+Analysis set                          studies     OR            95% CI      I2    tau2
+Primary analysis (all arms)                18   1.75  [ 1.36,  2.25]   58.1%  0.1490
+Excluding high-RoB trials                  16   1.67  [ 1.31,  2.14]   54.9%  0.1192
+Excluding high-RoB + unassessed            16   1.67  [ 1.31,  2.14]   54.9%  0.1192
+Low-RoB trials only                        12   1.51  [ 1.13,  2.01]   59.6%  0.1353
+
+── Contribution of high-RoB trials ──
+  arms      : 11 of 140 (7.9%)
+  patients  : 532 of 17,887 (3.0%)
+  vonoprazan arms among them: 3
+  mean ITT eradication: 71.8% vs 82.3% in the remainder
+
+── Eradication rate by risk-of-bias judgement ──
+  Low              55 arms   mean ITT  83.1% (SD  8.7)
+  Some concerns    74 arms   mean ITT  81.7% (SD  9.8)
+  High             11 arms   mean ITT  71.8% (SD 16.9)

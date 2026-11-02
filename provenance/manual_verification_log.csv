@@ -1,0 +1,224 @@
+Date,Ref,Arm,Field,Old,New,Source
+prior-session,76,VA-Dual-14d,Mean_Age_yr,,48.7,Table 1 (verified in prior session)
+prior-session,76,VA-Dual-10d,Mean_Age_yr,,48.92,Table 1 (verified in prior session)
+prior-session,76,Quad-14d,Mean_Age_yr,,46.01,Table 1 (verified in prior session)
+prior-session,39,VA-Dual-7d,N_PP,,59.0,'remaining 59 students in this group'
+prior-session,39,VAC-Triple-7d,N_PP,,157.0,'84.1% (132/157) on the PP analysis'
+2026-05-21,50,HDDT-Dual,Amox_Daily_mg,2000.0,3000,Abstract: 'amoxicillin 1g TDS' (3x daily)
+2026-05-21,50,HDDT-Dual,N_ITT,109,103,Results: '103 patients [received] HDDT'
+2026-05-21,50,HDDT-Dual,N_PP,,101,Table 2: HDDT compliance 101 (98%)
+2026-05-21,50,HDDT-Dual,Mean_Age_yr,,51.6,Table 1: HDDT 51.6+/-12.2
+2026-05-21,50,HDDT-Dual,Compliance_pct,,98.0,Table 2: HDDT compliance 98%
+2026-05-21,50,Concomitant-Quad,PPI,Esomeprazole,Pantoprazole,"Methods: 'pantoprazole 40 mg, amoxicillin 1 gr, clarithromycin 500 mg, metronidazole 500 mg every 12 hours'"
+2026-05-21,50,Concomitant-Quad,N_ITT,108,114,Results: '114 patients received concomitant quadruple therapy'
+2026-05-21,50,Concomitant-Quad,N_PP,,105,Table 2: Concomitant compliance 105 (92.1%)
+2026-05-21,50,Concomitant-Quad,Mean_Age_yr,,45.5,Table 1: Concomitant 45.5+/-14.4
+2026-05-21,50,Concomitant-Quad,Compliance_pct,,92.1,Table 2: Concomitant compliance 92.1%
+2026-05-21,44,H-VA-7d,Amox_Daily_mg,2000.0,3000,Abstract: 'amoxicillin 750 mg q.i.d' (4x daily)
+2026-05-21,44,H-VA-7d,Mean_Age_yr,,43,"Table 1: median [IQR] 43 [31,52] (used as mean proxy)"
+2026-05-21,44,H-VA-7d,Compliance_pct,,100.0,Table: Compliance <80% = 0/85
+2026-05-21,44,L-VA-7d,PPI_Daily_mg,20.0,40,Abstract: 'VPZ 20 mg b.i.d' (2x daily)
+2026-05-21,44,L-VA-7d,Mean_Age_yr,,40,"Table 1: median [IQR] 40 [32,50] (used as mean proxy)"
+2026-05-21,44,L-VA-7d,Compliance_pct,,100.0,Table: Compliance <80% = 0/84
+2026-05-21,44,VAC-Triple-7d,Amox_Daily_mg,2000.0,1500,"Methods: 'VPZ 20mg + amox 750mg + clarith 500mg, twice a day'"
+2026-05-21,44,VAC-Triple-7d,Mean_Age_yr,,39,"Table 1: median [IQR] 39 [30,50] (used as mean proxy)"
+2026-05-21,44,VAC-Triple-7d,Compliance_pct,,96.7,Table: Compliance <80% = 2/61 -> 96.7%
+2026-05-21,39,VA-Dual-7d,Compliance_pct,,100.0,Text: 'remaining 59 students completed the entire therapy regimen' (0 medication discontinuations / 60)
+2026-05-21,39,VAC-Triple-7d,Compliance_pct,,98.8,Text: 'two students were unable to continue with the medication intake' (159/161 = 98.76%)
+2026-05-21,52,VA-Dual,Mean_Age_yr,,41.4,Discussion: 'Mean age... Group-B was 41.4 +/-10.6 years'
+2026-05-21,52,OAC-Triple,Mean_Age_yr,,40.2,Discussion: 'Mean age +/-SD in Group-A was 40.2 +/-9.8 years'
+2026-05-21,52,VA-Dual,N_PP,,92.0,Analyzed cohort = PP cohort (paper reports single analysis)
+2026-05-21,52,OAC-Triple,N_PP,,87.0,Analyzed cohort = PP cohort (paper reports single analysis)
+2026-05-21,52,VA-Dual,PP_Rate,,93.5,Same as reported eradication rate (86/92)
+2026-05-21,52,OAC-Triple,PP_Rate,,83.9,Same as reported eradication rate (73/87)
+2026-05-21,46,HDDT-Dual,N_PP,,158.0,Results: PP eradication 145/158 (91.77%)
+2026-05-21,46,BQT-Quadruple,N_PP,,158.0,Results: PP eradication 147/158 (93.04%)
+2026-05-21,46,HDDT-Dual,Mean_Age_yr,,44.8,Table 1: HDDT 44.80 +/- 12.35 years
+2026-05-21,46,BQT-Quadruple,Mean_Age_yr,,45.12,Table 1: BQT 45.12 +/- 12.34 years
+2026-05-21,46,HDDT-Dual,Compliance_pct,,97.02,Abstract: 'compliance rates HDDT 97.02% vs BQT 95.86%'
+2026-05-21,46,BQT-Quadruple,Compliance_pct,,95.86,Abstract: 'compliance rates HDDT 97.02% vs BQT 95.86%'
+2026-05-21,59,BCQ-Quadruple,PPI,Vonoprazan,Esomeprazole,Methods: 'esomeprazole... 20 mg b.i.d' in BCQ
+2026-05-21,59,VA14-Dual,Amox_Daily_mg,2000.0,2250,Methods: 'AMO 750 mg t.i.d' = 750x3
+2026-05-21,59,JWC-Modified-Dual,Amox_Daily_mg,2000.0,2250,Methods: VAC = VA14 base (AMO 750 mg t.i.d)
+2026-05-21,59,VA14-Dual,N_PP,,64,Fig.1: 'VA14 group n=64 of mITT and PP population'
+2026-05-21,59,BCQ-Quadruple,N_PP,,61,Fig.1: 'BCQ group n=61 of mITT and PP population'
+2026-05-21,59,JWC-Modified-Dual,N_PP,,69,Fig.1: 'VAC group n=69 of mITT and PP population'
+2026-05-21,59,VA14-Dual,AE_Rate,,9.38,Table 3: VA14 6/64 = 9.38%
+2026-05-21,59,BCQ-Quadruple,AE_Rate,,22.95,Table 3: BCQ 14/61 = 22.95%
+2026-05-21,59,JWC-Modified-Dual,AE_Rate,,1.45,Table 3: VAC 1/69 = 1.45%
+2026-05-21,42,HDDT-Dual,PPI_Daily_mg,120.0,80.0,Methods: 'esomeprazole 20 mg 4 times daily' = 80 mg/day
+2026-05-21,42,BQT-Quadruple,Has_Clarithromycin,0.0,1.0,Methods: BQT includes 'clarithromycin 500 mg twice daily'
+2026-05-21,42,HDDT-Dual,N_PP,,340.0,Results: PP eradication 308/340 = 90.6%
+2026-05-21,42,BQT-Quadruple,N_PP,,331.0,Results: PP eradication 292/331 = 88.2%
+2026-05-21,42,HDDT-Dual,Mean_Age_yr,,42.0,Table 1 col 1 (HDDT): 42.0+/-12.5; column verified via smoking 53/350=15.1%
+2026-05-21,42,BQT-Quadruple,Mean_Age_yr,,40.8,Table 1 col 2 (BQT): 40.8+/-12.2; column verified via smoking 81/350=23.1%
+2026-05-21,42,HDDT-Dual,Compliance_pct,,97.7,Results: '97.7% (341/350) in the high-dose dual therapy group'
+2026-05-21,42,BQT-Quadruple,Compliance_pct,,96.8,Results: '96.8% (334/350) in the bismuth-containing therapy group'
+2026-05-21,36,EACM-Quadruple,ITT_Rate,86.7,87.5,Table 2 + body: 105/120 = 87.5% (abstract typo says 86.7%)
+2026-05-21,36,EACM-Quadruple,PP_Rate,92.0,92.1,Table 2: 105/114 = 92.1%
+2026-05-21,36,EACM-Quadruple,AE_Rate,23.0,22.8,Table 2: 26/114 = 22.8%
+2026-05-21,36,EA-Dual,N_PP,,115.0,Figure 2: 'Included PP (N=115)'
+2026-05-21,36,EACM-Quadruple,N_PP,,114.0,Figure 2: 'Included PP (N=114)'
+2026-05-21,36,EA-Dual,Mean_Age_yr,,55.0,Table 1: EA 55.0+/-11.5 years
+2026-05-21,36,EACM-Quadruple,Mean_Age_yr,,54.7,Table 1: EACM 54.7+/-13.2 years
+2026-05-21,36,EA-Dual,Compliance_pct,,100.0,Table 2: 'Compliance 100% (115/115)'
+2026-05-21,36,EACM-Quadruple,Compliance_pct,,100.0,Table 2: 'Compliance 100% (114/114)'
+2026-05-21,45,TDA-Dual,N_PP,,118.0,"Table 2: 'Grupo TDA (n=118) ... 114/118 (96,6%)'"
+2026-05-21,45,TCB-Quadruple,N_PP,,113.0,"Table 2: 'Grupo TCB (n=113) ... 102/113 (90,3%)'"
+2026-05-21,45,TDA-Dual,Mean_Age_yr,,47.8,"Table 1: 'Grupo TDA Edad 47,8 +/- 14,2'"
+2026-05-21,45,TCB-Quadruple,Mean_Age_yr,,48.3,"Table 1: 'Grupo TCB Edad 48,3 +/- 12,1'"
+2026-05-21,45,TDA-Dual,Compliance_pct,,97.0,100% - intolerance 3.0% (4/133)
+2026-05-21,45,TCB-Quadruple,Compliance_pct,,91.7,100% - intolerance 8.3% (11/133)
+2026-05-21,72,VA-Dual,N_PP,,72.0,Text: '72 patients in the VA group... included in the PP analysis'
+2026-05-21,72,VBQT-Quadruple,N_PP,,62.0,Text: '62 patients in the VBQT group... included in the PP analysis'
+2026-05-21,72,VA-Dual,Mean_Age_yr,,42.38,Table 2 (post-PSM) col 1 VA: 42.38 +/- 11.34
+2026-05-21,72,VBQT-Quadruple,Mean_Age_yr,,44.05,Table 2 (post-PSM) col 2 VBQT: 44.05 +/- 13.44
+2026-05-21,72,VA-Dual,Compliance_pct,,96.2,Table 4: 'Compliance 96.2 (75/78)'
+2026-05-21,72,VBQT-Quadruple,Compliance_pct,,96.2,Table 4: 'Compliance 96.2 (75/78)'
+2026-05-21,94,BQT-14d,Compliance_pct,,90.7,Table 2 'Completion of treatment %': 14-BQT 90.7
+2026-05-21,94,BQT-10d,Compliance_pct,,92.5,Table 2: 10-BQT 92.5
+2026-05-21,94,MBCT-14d,Compliance_pct,,98.1,Table 2: 14-MBCT 98.1
+2026-05-21,94,MBCT-10d,Compliance_pct,,100.0,Table 2: 10-MBCT 100
+2026-05-21,85,VPZ-BQ-7d,Compliance_pct,,100.0,'No dropouts were detected'; AEs resolved without treatment interruption
+2026-05-21,85,VPZ-BQ-14d,Compliance_pct,,100.0,'No dropouts were detected'; AEs resolved without treatment interruption
+2026-05-21,86,VCLB-7d,Compliance_pct,,98.0,1/51 discontinued due to AE (paper: 'one from each arm discontinued') = 50/51
+2026-05-21,86,VCLB-14d,Compliance_pct,,98.0,1/51 discontinued due to AE (paper: 'one from each arm discontinued') = 50/51
+2026-05-21,54,RA-Dual-14d,PPI_Daily_mg,20.0,30.0,Methods: 'rabeprazole 10 mg three times daily' = 30 mg/day
+2026-05-21,54,RA-Dual-14d,Amox_Daily_mg,4000.0,3000.0,Methods: 'amoxicillin 1 g three times daily' = 3000 mg/day
+2026-05-21,54,VA-Dual-10d,N_PP,,337.0,Results: PP 308/337 = 91.4%
+2026-05-21,54,RA-Dual-14d,N_PP,,336.0,Results: PP 291/336 = 86.6%
+2026-05-21,54,VA-Dual-10d,AE_Rate,,8.4,Results: 'AEs in VA group 8.4% (29/345)'
+2026-05-21,54,RA-Dual-14d,AE_Rate,,9.0,Results: 'AEs in RA group 9.0% (31/344)'
+2026-05-21,54,VA-Dual-10d,Mean_Age_yr,,42.5,Table 1: VA 42.5+/-12.5
+2026-05-21,54,RA-Dual-14d,Mean_Age_yr,,41.8,Table 1: RA 41.8+/-12.3
+2026-05-21,54,VA-Dual-10d,Compliance_pct,,99.1,Table 4: 337 good / (337+3 poor) = 337/340
+2026-05-21,54,RA-Dual-14d,Compliance_pct,,98.5,Table 4: 336 good / (336+5 poor) = 336/341
+2026-05-21,65,VAC-Triple,Has_Clarithromycin,0.0,1,Methods: VAC-triple includes 'clarithromycin 500 mg twice daily'
+2026-05-21,65,Bismuth-Quad,Has_Metronidazole,0.0,1,Methods: BQT includes 'metronidazole 500 mg four times daily'
+2026-05-21,65,VA-Dual,N_PP,,92,PP: 89/92 = 96.7%
+2026-05-21,65,VAC-Triple,N_PP,,90,PP: 87/90 = 96.7%
+2026-05-21,65,Bismuth-Quad,N_PP,,77,PP: 75/77 = 97.4%
+2026-05-21,88,LVA-Dual,Mean_Age_yr,,44.0,Table 1: LVA Age 44(13.5)
+2026-05-21,88,HVA-Dual,Mean_Age_yr,,42.0,Table 1: HVA Age 42(12.9)
+2026-05-21,88,LVA-Dual,AE_Rate,,12.3,Abstract: 31/252 = 12.30%
+2026-05-21,88,HVA-Dual,AE_Rate,,17.1,Abstract: 43/252 = 17.06%
+2026-05-21,88,LVA-Dual,Compliance_pct,,96.8,Results: 244/252 (97%) good adherence
+2026-05-21,88,HVA-Dual,Compliance_pct,,96.4,Results: 243/252 (96%) good adherence
+2026-05-21,64,PPI-Bismuth-Quad,PPI,Esomeprazole,Ilaprazole,Methods: V3 uses 'ilaprazole 5 mg' (not esomeprazole)
+2026-05-21,64,VPZ-Dual,N_PP,,43,Text: '2 lost to follow-up and 43 eventually completed treatment in Group V1'
+2026-05-21,64,VPZ-Dual,AE_Rate,,2.3,Table 4: V1 Overall AE 1/43 = 2.3%
+2026-05-21,64,VPZ-Bismuth-Quad,AE_Rate,,19.5,Table 4: V2 Overall AE 8/41 = 19.5%
+2026-05-21,64,PPI-Bismuth-Quad,AE_Rate,,14.0,Table 4: V3 Overall AE 6/43 = 14.0%
+2026-05-21,64,VPZ-Dual,Compliance_pct,,100.0,V1: no AE-induced discontinuations (2 LTF treated as compliant)
+2026-05-21,64,VPZ-Bismuth-Quad,Compliance_pct,,95.6,V2: 2/45 AE discontinuations -> 43/45 compliant
+2026-05-21,64,PPI-Bismuth-Quad,Compliance_pct,,95.6,V3: 2/45 AE discontinuations -> 43/45 compliant
+2026-05-21,29,Triple-LAC,Mean_Age_yr,,49.6,Table 1: Triple 49.6+/-12.3
+2026-05-21,29,Dual-LA,Mean_Age_yr,,50.9,Table 1: Dual 50.9+/-11.8
+2026-05-21,29,Triple-LAC,Compliance_pct,,100.0,Text: 'all patients in triple therapy group showed good compliance'
+2026-05-21,29,Dual-LA,Compliance_pct,,96.2,Text: '4 patients in dual therapy demonstrated poor compliance' -> 100/104
+2026-05-21,78,EA-Dual,PPI_Daily_mg,120.0,80.0,Methods: 'esomeprazole 20 mg four times daily' = 80 mg/day
+2026-05-21,78,B-Quad,Has_Clarithromycin,0.0,1.0,Methods: B-quadruple includes 'clarithromycin sustained-release 500 mg twice daily'
+2026-05-21,78,EA-Dual,N_PP,,165.0,Table 2 PP: 155/165 = 93.94%
+2026-05-21,78,B-Quad,N_PP,,185.0,Table 2 PP: 182/185 = 98.38%
+2026-05-21,78,VA-Dual,N_PP,,154.0,Table 2 PP: 149/154 = 96.75%
+2026-05-21,78,VAC-Triple,N_PP,,160.0,Table 2 PP: 150/160 = 93.75%
+2026-05-21,78,EA-Dual,AE_Rate,,4.98,Results: '4.98% (11/221)' EA group
+2026-05-21,78,B-Quad,AE_Rate,,8.72,Results: '8.72% (19/218)' B-quad group
+2026-05-21,78,VA-Dual,AE_Rate,,9.84,Results: '9.84% (18/183)' VA group
+2026-05-21,78,VAC-Triple,AE_Rate,,11.41,Results: '11.41% (21/184)' VAC group
+2026-05-21,48,RADT-Dual,N_PP,,115.0,AE table: 15/115 RADT
+2026-05-21,48,RFDT-Dual,N_PP,,49.0,AE table: 13/49 RFDT (terminated early)
+2026-05-21,48,BQT-Quadruple,N_PP,,114.0,AE table: 53/114 BQT
+2026-05-21,48,RADT-Dual,AE_Rate,,13.0,Table: 15/115 = 13.0%
+2026-05-21,48,RFDT-Dual,AE_Rate,,26.5,Table: 13/49 = 26.5%
+2026-05-21,48,BQT-Quadruple,AE_Rate,,46.5,Table: 53/114 = 46.5%
+2026-05-21,56,EBAM-Quadruple,Has_Metronidazole,0.0,1.0,Methods: EBAM = Esomeprazole+Bismuth+Amox+Metronidazole 0.4g QID
+2026-05-21,56,VA-Dual,N_PP,,90.0,PP: 86/90 = 95.6%
+2026-05-21,56,EBAM-Quadruple,N_PP,,92.0,PP: 89/92 = 96.7%
+2026-05-21,56,VA-Dual,AE_Rate,,16.67,Results: VA AE 16.67% vs EBAM 38.04%
+2026-05-21,56,EBAM-Quadruple,AE_Rate,,38.04,Results: VA AE 16.67% vs EBAM 38.04%
+2026-05-21,90,STT-Standard-Triple,AE_Rate,,91.2,Table 4: 'Subjects 31 (91.2%)' any AE
+2026-05-21,90,VDT-Vonoprazan-Dual,AE_Rate,,93.8,Table 4: 'Subjects 30 (93.8%)' any AE
+2026-05-21,90,VTT-Vonoprazan-Triple,AE_Rate,,94.7,Table 4: 'Subjects 36 (94.7%)' any AE
+2026-05-21,90,STT-Standard-Triple,Compliance_pct,,100.0,Text: 'median was 100% in STT group'
+2026-05-21,90,VDT-Vonoprazan-Dual,Compliance_pct,,97.14,Text: 'median 97.14% (range 42.85-100%) in VDT group'
+2026-05-21,90,VTT-Vonoprazan-Triple,Compliance_pct,,100.0,Text: 'median 100% (range 35.71-100%) in VTT group'
+2026-05-21,104,Empirical-Triple-10d,Mean_Age_yr,,67.5,Table 1: Empirical 67.5+/-9.7
+2026-05-21,104,PCR-Tailored-10d,Mean_Age_yr,,64.1,Table 1: Tailored 64.1+/-8.6
+2026-05-21,104,Empirical-Triple-10d,AE_Rate,,3.1,Table 2: Any AE 1 (3.1%)
+2026-05-21,104,PCR-Tailored-10d,AE_Rate,,20.0,Table 2: Any AE 6 (20.0%)
+2026-05-21,104,Empirical-Triple-10d,Compliance_pct,,100.0,Table 2: Poor compliance 0(0)
+2026-05-21,104,PCR-Tailored-10d,Compliance_pct,,100.0,Table 2: Poor compliance 0(0)
+2026-05-21,43,VA-Dual-BID,N_PP,,51.0,PP: 48/51 = 94.1%
+2026-05-21,43,VA-Dual-TID,N_PP,,49.0,PP: 47/49 = 95.9%
+2026-05-21,43,VA-Dual-BID,AE_Rate,,29.1,Text: TEAEs 16/55 L-VA
+2026-05-21,43,VA-Dual-TID,AE_Rate,,20.0,Text: TEAEs 11/55 H-VA
+2026-05-21,51,HDDT-Dual,N_PP,,100.0,Text: '100 in the HDDT group' (PP analysis)
+2026-05-21,51,ACBQT-Quadruple,N_PP,,99.0,Text: '99 in the ACBQT group' (PP analysis)
+2026-05-21,51,HDDT-Dual,Mean_Age_yr,,47.3,Table 1: HDDT 47.3 (11.4)
+2026-05-21,51,HDDT-Dual,Compliance_pct,,97.0,Text: 'compliance...97.0% vs 98.0%'
+2026-05-21,61,VA-Dual-10d,Amox_Daily_mg,1000.0,3000,Methods: '1 g of amoxicillin 3 times daily' = 3000 mg/day
+2026-05-21,61,B-Quad-14d,PPI,Esomeprazole,Rabeprazole,Methods: '10 mg of rabeprazole... twice daily'
+2026-05-21,61,B-Quad-14d,Has_Clarithromycin,0,1,Methods: B-Quad includes '500 mg of clarithromycin twice daily'
+2026-05-21,61,VA-Dual-10d,N_PP,,141,PP analysis: 128/141 = 90.8%
+2026-05-21,61,B-Quad-14d,N_PP,,138,PP analysis: 126/138 = 91.3%
+2026-05-21,61,VA-Dual-10d,AE_Rate,,21.0,Results: 'VA-dual 21.0% vs B-quadruple 43.9%'
+2026-05-21,61,B-Quad-14d,AE_Rate,,43.9,Results: 'B-quadruple 43.9% vs VA-dual 21.0%'
+2026-05-21,63,IA-Dual,N_PP,,98.0,PP: 93/98 = 94.9%
+2026-05-21,63,IAFB-Quadruple,N_PP,,95.0,PP: 89/95 = 93.6%
+2026-05-21,63,IA-Dual,AE_Rate,,13.9,Text: 'Adverse events 14/101 (13.9%)'
+2026-05-21,63,IAFB-Quadruple,AE_Rate,,17.2,Text: 'Adverse events 17/99 (17.2%)'
+2026-05-21,67,VA-Dual-BID,N_PP,,86.0,PP: 83/86 = 96.5%
+2026-05-21,67,VPZ-Quad,N_PP,,88.0,PP: 86/88 = 97.7%
+2026-05-21,67,VA-Dual-BID,AE_Rate,,27.4,Table 3: Total AE 26/95 = 27.4%
+2026-05-21,67,VPZ-Quad,AE_Rate,,25.3,Table 3: Total AE 24/95 = 25.3%
+2026-05-21,69,TA-Dual,N_PP,,178.0,Text: '178 had good compliance' (TA cohort)
+2026-05-21,69,EA-Dual,N_PP,,174.0,Text: '174 had good compliance' (EA cohort)
+2026-05-21,69,TA-Dual,AE_Rate,,16.3,"Text: 'TA and EA (16.3% vs 21.2%, p=0.29)'"
+2026-05-21,69,EA-Dual,AE_Rate,,21.2,"Text: 'TA and EA (16.3% vs 21.2%, p=0.29)'"
+2026-05-21,93,sTT-Standard-Triple,AE_Rate,,17.8,Table 4: (11+1+1)/73
+2026-05-21,93,BQT-with-CLR,AE_Rate,,18.9,Table 4: (7+5+2)/74
+2026-05-21,93,Sequential-10d,AE_Rate,,16.7,Table 4: (7+3+2)/72
+2026-05-21,93,Hybrid-14d,AE_Rate,,14.1,Table 4: (6+2+2)/71
+2026-05-21,100,Culture-Tailored-10d,AE_Rate,,45.9,Table 3: None=124/229=54.1% -> any AE 45.9%
+2026-05-21,100,Empirical-Concomitant-10d,AE_Rate,,72.0,Table 3: None=21/75=28.0% -> any AE 72.0%
+2026-05-21,100,Culture-Tailored-10d,Compliance_pct,,97.9,Discontinuation due to AE 5/234 = 2.1% -> 97.9% compliance
+2026-05-21,100,Empirical-Concomitant-10d,Compliance_pct,,97.4,Discontinuation due to AE 2/78 = 2.6% -> 97.4% compliance
+2026-05-21,103,SGT-Juice-PCR-Guided,Compliance_pct,,97.8,2/91 discontinued due to side effects -> 89/91
+2026-05-21,103,STT-Empirical-7d,Compliance_pct,,95.6,4/91 lost to follow-up (proxy) -> 87/91
+2026-05-21,77,B-Quad,PPI,Vonoprazan,Rabeprazole,Methods: '10 mg of rabeprazole'
+2026-05-21,77,B-Quad,Has_Clarithromycin,0,1,Methods: B-Quad includes '500 mg of clarithromycin'
+2026-05-21,77,VM-Dual,N_PP,,113,Table 2 PP: 104/113 = 92.0%
+2026-05-21,77,B-Quad,N_PP,,111,Table 2 PP: 106/111 = 95.5%
+2026-05-21,49,BQT-Quadruple,Has_Clarithromycin,0.0,1,Methods: BQT includes '250 mg clarithromycin capsule twice daily'
+2026-05-21,49,HDDT-Dual,N_PP,,478,Figure 1: PP analysis n=478 (HDDT)
+2026-05-21,49,BQT-Quadruple,N_PP,,447,Figure 1: PP analysis n=447 (BQT)
+2026-05-21,53,BQT-Quadruple,Has_Clarithromycin,0,1,"Methods: BQT includes 'clarithromycin, 500 mg, twice daily'"
+2026-05-21,58,BQT-Quadruple,Mean_Age_yr,53.6,54.4,Table 1 col 1 (BQT): 54.42+/-8.85
+2026-05-21,58,RGBTT-Triple,Mean_Age_yr,53.6,53.5,Table 1 col 3 (RGBTT): 53.51+/-8.20
+2026-05-21,58,BQT-Quadruple,Compliance_pct,91.8,88.2,Table 3: BQT 75/85 (88.2%)
+2026-05-21,58,RGBTT-Triple,Compliance_pct,91.8,92.9,Table 3: RGBTT 79/85 (92.9%)
+2026-05-21,58,BQT-Quadruple,AE_Rate,,32.0,Table 3: BQT AE 24/75 = 32.0%
+2026-05-21,58,RGBTT-Triple,AE_Rate,,24.1,Table 3: RGBTT AE 19/79 = 24.1%
+2026-05-21,62,HDDT-Dual,PPI,Esomeprazole,Pantoprazole,Methods: 'pantoprazole 40 mg 3 times daily'
+2026-05-21,62,BQT-Quadruple,PPI,Esomeprazole,Pantoprazole,Methods: 'pantoprazole 40 mg twice daily'
+2026-05-21,62,BQT-Quadruple,Has_Clarithromycin,0,1,Methods: BQT includes 'clarithromycin 500 mg twice daily'
+2026-05-21,62,HDDT-Dual,N_PP,,72,PP: 67/72 = 93.0%
+2026-05-21,62,BQT-Quadruple,N_PP,,72,PP: 65/72 = 90.3%
+2026-05-21,66,BQT-Quadruple,PPI,Esomeprazole,Lansoprazole,Methods: 'lansoprazole 30 mg two times per day'
+2026-05-21,66,BQT-Quadruple,Has_Metronidazole,0,1,Methods: LBTM includes 'metronidazole 400 mg three times a day'
+2026-05-21,70,TA-Dual,N_PP,,111,Table 2 PP: 98/111 = 88.3%
+2026-05-21,70,TBAC-Quadruple,N_PP,,105,Table 2 PP: 89/105 = 84.8%
+2026-05-21,71,EA-Dual-14d,PPI_Daily_mg,40.0,80,Methods: 'esomeprazole 20 mg four times daily' = 80 mg/day
+2026-05-21,71,VA-Dual-10d,N_PP,,269,Table 2 PP: 245/269 = 91.1%
+2026-05-21,71,EA-Dual-14d,N_PP,,248,Table 2 PP: 212/248 = 85.5%
+2026-05-21,79,BQT-Quadruple,PPI,Esomeprazole,Lansoprazole,Methods: '30 mg of lansoprazole'
+2026-05-21,79,BQT-Quadruple,Has_Clarithromycin,0,1,Methods: BQT includes '500 mg of clarithromycin'
+2026-05-21,79,VA-Dual,N_PP,,119,Table 2 PP: 114/119 = 95.8%
+2026-05-21,79,BQT-Quadruple,N_PP,,120,Table 2 PP: 110/120 = 91.7%
+2026-05-21,82,TPZ-Triple-7d,Compliance_pct,,100.0,CONSORT: 0/172 poor compliance in TPZ
+2026-05-21,82,LPZ-Triple-7d,Compliance_pct,,99.4,CONSORT: 1/173 poor compliance in LPZ = 99.4%
+2026-05-21,98,LFX-Sequential-10d,Mean_Age_yr,42.3,44.1,Table 1 Group A: 44.05+/-13.66
+2026-05-21,98,CLR-Sequential-10d,Mean_Age_yr,42.3,42.5,Table 1 Group B: 42.49+/-14.17
+2026-05-21,102,Empirical-Concomitant-14d,Compliance_pct,,98.6,Text: 2/145 failed >80% compliance -> (145-2)/145
+2026-05-21,102,PCR-Tailored-14d,Compliance_pct,,97.2,Text: 4/145 failed >80% compliance -> (145-4)/145

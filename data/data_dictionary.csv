@@ -1,0 +1,77 @@
+﻿field,description,missing_rows,observed_values_if_few,provenance
+Ref,Internal study identifier; join to studies.csv. Not a PubMed ID.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+File,Local source-report file stem; source PDFs and full extracted texts are not redistributed.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Arm_Label,Within-study treatment-arm identifier; combined with Ref uniquely identifies a row.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Country,Country or multicountry setting recorded for the arm.,0,Brazil;China;Colombia;Egypt;Iran;Japan;Korea;Lebanon;Pakistan;Qatar;Taiwan;Thailand;Turkey;USA+Europe,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Geographic_Region,Geographic grouping used in the legacy models.,0,East Asia;Latin America;Middle East;South Asia;Southeast Asia;Western,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Study_Period_Start,Recorded recruitment-period start; not necessarily publication date.,64,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Study_Period_End,Recorded recruitment-period end; not necessarily publication date.,64,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Study_Design,"Legacy extracted design label; all retained rows are labelled RCT, but Ref 81 uses odd/even allocation.",0,RCT,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Multicenter,"Extracted multicenter label, Yes/No.",0,No;Yes,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Treatment_Naive_vs_Rescue,Extracted first-line/rescue label; retained rows are Naive.,0,Naive,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Arm_Is_Intervention,Legacy intervention-versus-comparator flag within a study.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Quality_Flags,Semicolon-separated provenance/quality annotations; not a substitute for RoB assessment.,40,resistance-estimated;resistance-estimated; ilaprazole-uncommon-PPI;resistance-estimated; small-pilot,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+PPI,"Acid suppressant name, including P-CABs as well as PPIs.",0,Dexlansoprazole;Esomeprazole;Ilaprazole;Lansoprazole;Omeprazole;Pantoprazole;Rabeprazole;Tegoprazan;Vonoprazan,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_PCAB,Indicator acid suppressant is vonoprazan or tegoprazan in the legacy coding.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Vonoprazan,Indicator acid suppressant is vonoprazan.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Tegoprazan,Indicator acid suppressant is tegoprazan.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Standard_PPI,"Legacy indicator for the named PPI drugs, including ilaprazole.",0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+PPI_Dose_mg,Recorded dose per administration in mg for PPI.,0,10.0;100.0;20.0;30.0;40.0;5.0;50.0;60.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+PPI_Freq_per_day,Recorded administrations per day for PPI.,0,1.0;2.0;3.0;4.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+PPI_Daily_mg,Recorded total daily dose in mg for PPI.,0,10.0;100.0;120.0;20.0;200.0;30.0;40.0;60.0;80.0;90.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Treatment_Type,"Recorded regimen category: dual, triple, quadruple or nonbismuth_quadruple.",0,dual;nonbismuth_quadruple;quadruple;triple,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Dual,Indicator Treatment_Type is dual.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Triple,Indicator Treatment_Type is triple.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Quadruple,Legacy quadruple/nonbismuth-quadruple/sequential regimen flag.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Has_Bismuth,Legacy binary regimen-presence flag for bismuth.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Has_Clarithromycin,Legacy binary regimen-presence flag for clarithromycin.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Has_Metronidazole,Legacy binary regimen-presence flag for metronidazole.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Has_Other_Antibiotic,Legacy binary regimen-presence flag for other antibiotic.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Tetracycline_Dual,Historical antibiotic-name flag for tetracycline; the generating rule does not itself enforce dual category.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Minocycline_Dual,Historical antibiotic-name flag for minocycline; the generating rule does not itself enforce dual category.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Furazolidone_Quad,Historical antibiotic-name flag for furazolidone; see generating script and manual corrections.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Amox_Dose_mg,Recorded dose per administration in mg for Amox.,13,1000.0;500.0;750.0;875.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Amox_Freq_per_day,Recorded administrations per day for Amox.,13,2.0;3.0;4.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Amox_Daily_mg,Recorded total daily dose in mg for Amox.,13,1500.0;1750.0;2000.0;2250.0;2625.0;3000.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Clari_Dose_mg,Recorded dose per administration in mg for Clari.,91,1000.0;300.0;500.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Metro_Dose_mg,Recorded dose per administration in mg for Metro.,120,400.0;500.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Other_AB_Dose_mg,Recorded dose per administration in mg for Other_AB.,123,100.0;262.0;500.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Duration_Days,Recorded duration of eradication treatment in days.,0,10.0;12.0;14.0;7.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+CLR_Resistance_pct,Clarithromycin resistance percentage; in-paper or assigned regional estimate.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+MTZ_Resistance_pct,Metronidazole resistance percentage; in-paper or assigned regional estimate.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+AMX_Resistance_pct,Amoxicillin resistance percentage; in-paper or assigned regional estimate.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+LFX_Resistance_pct,Levofloxacin resistance percentage; in-paper or assigned regional estimate.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Resistance_Source_Type,in-paper susceptibility data versus regional-estimate assignments.,0,in-paper;regional-estimate,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+CLR_use_x_CLR_resistance,Has_Clarithromycin multiplied by CLR_Resistance_pct.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_East_Asia,Indicator Geographic_Region is East Asia.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Western,Indicator Geographic_Region is Western.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_South_Asia_ME,Indicator region is South Asia or Middle East.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Latin_America,Indicator region is Latin America.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Southeast_Asia,Indicator region is Southeast Asia.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_High_CLR_Region,Indicator assigned clarithromycin resistance is >=30%.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_High_AMX_Region,Indicator assigned amoxicillin resistance is >=10%.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+N_ITT,Recorded ITT-analysis denominator; some original studies use modified ITT/full-analysis populations.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+N_PP,Recorded per-protocol analysis denominator.,16,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+ITT_Rate,Reported ITT-labelled eradication percentage; not an independently observed success count.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+PP_Rate,Reported per-protocol eradication percentage.,8,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+AE_Rate,Reported adverse-event percentage.,23,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Primary_Rate,"Legacy primary outcome: ITT_Rate where available, otherwise PP_Rate.",0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Primary_Rate_Type,ITT or PP source of Primary_Rate.,0,ITT,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Success_ITT_85,Indicator ITT_Rate >= 85%; exploratory operational threshold.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Success_ITT_90,Indicator ITT_Rate >= 90%; exploratory operational threshold.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Success_PP_90,Indicator PP_Rate >= 90%.,10,0.0;1.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Mean_Age_yr,Reported arm mean age in years.,10,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Compliance_pct,Reported arm medication adherence/compliance percentage.,16,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Mean_Age_missing,Historical missingness indicator; not refreshed for all subsequent manual fills.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Compliance_missing,Historical missingness indicator; not refreshed for all subsequent manual fills.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Susceptibility_Guided,Flag for susceptibility-guided treatment strategy.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Concomitant,Legacy arm-label/notes-derived concomitant-regimen flag.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Sequential,Legacy arm-label/notes-derived sequential-regimen flag.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Hybrid,Legacy arm-label/notes-derived hybrid-regimen flag.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Bismuth_Quad,Indicator quadruple regimen with bismuth.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Is_Multicenter,Numeric multicenter flag derived from Multicenter.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Study_Era,"Legacy recruitment end-year feature parsed from Study_Period_End, not publication year.",64,2010.0;2012.0;2014.0;2016.0;2017.0;2018.0;2019.0;2021.0;2022.0;2023.0;2024.0;2025.0,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Study_Era_missing,Historical indicator of missing/unparseable Study_Era.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Amox_Daily_missing,Historical missing daily amoxicillin dose indicator.,0,0;1,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+ITT_Prop,Legacy ITT_Rate/100 derived field; one stale value identified in the audit.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.
+Successes_ITT,Legacy rounded ITT_Rate*N_ITT/100 derived count; three stale values identified in the audit.,0,,Historical extraction/05_clean_and_features.py plus manual_verification_log.csv; frozen fields not regenerated.

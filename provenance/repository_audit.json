@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-02",
+  "original_repository": "hpylori-bayesian-meta-ml",
+  "arms": 140,
+  "studies": 60,
+  "patients": 17887,
+  "dataset_columns": 76,
+  "core_data_files_match": {
+    "arm_level_dataset.csv": true,
+    "clean_dataset.csv": true,
+    "arm_dataset_with_resistance.csv": true,
+    "extracted_arms.csv": true
+  },
+  "saved_model_files_match": 72,
+  "all_model_files_match": true,
+  "clinical_rob_covers_all_studies": true,
+  "manual_edit_log_entries": 223,
+  "absolute_path_literals": 55,
+  "scripts_with_absolute_paths": 22,
+  "original_script_syntax_checked": 26,
+  "proposed_derived_field_corrections": [
+    {
+      "Ref": 36,
+      "Arm_Label": "EACM-Quadruple",
+      "field": "Successes_ITT",
+      "stored_value": "104",
+      "candidate_value": 105,
+      "N_ITT": "120",
+      "ITT_Rate": "87.5",
+      "evidence": "Tai 2019 Table 2 directly reports 105/120; abstract has 86.7% typo.",
+      "decision": "PROPOSED_CORRECTION_NOT_APPLIED; clinical confirmation and affected refits needed"
+    },
+    {
+      "Ref": 36,
+      "Arm_Label": "EACM-Quadruple",
+      "field": "ITT_Prop",
+      "stored_value": "0.867",
+      "candidate_value": 0.875,
+      "N_ITT": "120",
+      "ITT_Rate": "87.5",
+      "evidence": "Tai 2019 Table 2 directly reports 105/120 = 87.5%; prior ITT_Prop remains 0.867.",
+      "decision": "PROPOSED_CORRECTION_NOT_APPLIED; affected analyses need checking"
+    },
+    {
+      "Ref": 50,
+      "Arm_Label": "HDDT-Dual",
+      "field": "Successes_ITT",
+      "stored_value": "88",
+      "candidate_value": 83,
+      "N_ITT": "103",
+      "ITT_Rate": "80.6",
+      "evidence": "Yadollahi 2022 pp174-175 and Flow Chart 1: denominators 103 dual / 114 concomitant; rates 80.6% / 81.6%. Counts are inferred from rounded rates, not directly printed.",
+      "decision": "PROPOSED_CORRECTION_NOT_APPLIED; clinical confirmation and affected refits needed"
+    },
+    {
+      "Ref": 50,
+      "Arm_Label": "Concomitant-Quad",
+      "field": "Successes_ITT",
+      "stored_value": "88",
+      "candidate_value": 93,
+      "N_ITT": "114",
+      "ITT_Rate": "81.6",
+      "evidence": "Yadollahi 2022 pp174-175 and Flow Chart 1: denominators 103 dual / 114 concomitant; rates 80.6% / 81.6%. Counts are inferred from rounded rates, not directly printed.",
+      "decision": "PROPOSED_CORRECTION_NOT_APPLIED; clinical confirmation and affected refits needed"
+    }
+  ],
+  "missingness_flag_comparison": {
+    "Mean_Age_yr": {
+      "actual_missing": 10,
+      "flagged_missing": 34
+    },
+    "Compliance_pct": {
+      "actual_missing": 16,
+      "flagged_missing": 60
+    },
+    "Amox_Daily_mg": {
+      "actual_missing": 13,
+      "flagged_missing": 13
+    }
+  },
+  "posterior_draws_located": false,
+  "genuine_bayesian_loso_available": false,
+  "original_license_file_present": false,
+  "prepared_additions": [
+    "manual edit log",
+    "original clinician workbook",
+    "76-field data dictionary",
+    "60-study citation map and bibliography",
+    "saved text reports and corrected cached-metric evidence",
+    "supporting dependencies",
+    "portable isolated-run helper",
+    "cached-results verification helper",
+    "file manifest"
+  ],
+  "source_pdfs_and_full_text_excluded_from_public_package": true,
+  "new_search_screening_complete": false,
+  "models_refitted": false,
+  "data_corrections_applied": false,
+  "remote_repository_deleted": false,
+  "remote_write_connection_available": true,
+  "ready_to_claim_full_reproduction": false,
+  "remote_deletion_scope_available": false,
+  "repository_private": true,
+  "local_source_pdf_coverage": 60
+}

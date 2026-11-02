@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-02",
+  "arms": 140,
+  "studies": 60,
+  "patients": 17887,
+  "dataset_sha256": "7cb9a3412a83308edcec9939e62a4d6e42c44b44140ce6462e46c72f32c538c6",
+  "resistance_sources": {
+    "regional-estimate": 100,
+    "in-paper": 40
+  },
+  "bart_fallback": {
+    "loo_arm": {
+      "maximum_difference_from_fallback": 0.0,
+      "arms_matching": 140
+    },
+    "loso": {
+      "maximum_difference_from_fallback": 0.0,
+      "arms_matching": 140
+    }
+  },
+  "tables": {
+    "paper/my_version/main_my_version.tex": {
+      "cells_checked": 77,
+      "numeric_and_targeted_wording_checks": true
+    },
+    "paper/main_no_rob.tex": {
+      "cells_checked": 77,
+      "numeric_and_targeted_wording_checks": true
+    },
+    "paper/with rob test/main.tex": {
+      "cells_checked": 77,
+      "numeric_and_targeted_wording_checks": true
+    }
+  },
+  "included_citations": {
+    "paper/my_version/main_my_version.tex": 60,
+    "paper/main_no_rob.tex": 60,
+    "paper/with rob test/main.tex": 60
+  },
+  "prediction_metrics": {
+    "elasticnet": {
+      "loo": {
+        "r2": 0.13726955288435683,
+        "rmse_pp": 9.675106777245336,
+        "auc85": 0.6395897435897435,
+        "brier85": 0.23908043225408582,
+        "auc90": 0.5847457627118644,
+        "brier90": 0.1408779558246559
+      },
+      "loso": {
+        "r2": -0.007829053888795512,
+        "rmse_pp": 10.457109150036972,
+        "auc85": 0.5819487179487179,
+        "brier85": 0.2548998624277045,
+        "auc90": 0.5523882896764253,
+        "brier90": 0.14736716174912756
+      }
+    },
+    "randomforest": {
+      "loo": {
+        "r2": 0.2349740001914581,
+        "rmse_pp": 9.110795563795843,
+        "auc85": 0.6617435897435897,
+        "brier85": 0.2345604806684832,
+        "auc90": 0.6275038520801233,
+        "brier90": 0.13286369288362473
+      },
+      "loso": {
+        "r2": 0.011547306015044279,
+        "rmse_pp": 10.356097934926568,
+        "auc85": 0.5680000000000001,
+        "brier85": 0.26006372578205295,
+        "auc90": 0.5558551617873652,
+        "brier90": 0.14180387491869903
+      }
+    },
+    "gradientboost": {
+      "loo": {
+        "r2": 0.2756347282274081,
+        "rmse_pp": 8.865373035414223,
+        "auc85": 0.712820512820513,
+        "brier85": 0.21965555473322126,
+        "auc90": 0.6825885978428351,
+        "brier90": 0.13262964607455296
+      },
+      "loso": {
+        "r2": -0.08310609105311162,
+        "rmse_pp": 10.840609565354901,
+        "auc85": 0.5901538461538463,
+        "brier85": 0.25721688897514605,
+        "auc90": 0.599768875192604,
+        "brier90": 0.1510908262648954
+      }
+    },
+    "xgboost": {
+      "loo": {
+        "r2": 0.3411957996707706,
+        "rmse_pp": 8.454664603377983,
+        "auc85": 0.6992820512820513,
+        "brier85": 0.22006959605303333,
+        "auc90": 0.6964560862865947,
+        "brier90": 0.1285163130189804
+      },
+      "loso": {
+        "r2": -0.019362441624390936,
+        "rmse_pp": 10.516773438851686,
+        "auc85": 0.56,
+        "brier85": 0.2680000223066061,
+        "auc90": 0.5701078582434514,
+        "brier90": 0.15250194814050877
+      }
+    },
+    "lightgbm": {
+      "loo": {
+        "r2": 0.21316175614968802,
+        "rmse_pp": 9.239765182695887,
+        "auc85": 0.6077948717948718,
+        "brier85": 0.253912060127962,
+        "auc90": 0.6698767334360555,
+        "brier90": 0.1375128602002514
+      },
+      "loso": {
+        "r2": 0.028280221504875747,
+        "rmse_pp": 10.268067745379533,
+        "auc85": 0.5712820512820513,
+        "brier85": 0.2696816408670779,
+        "auc90": 0.6400231124807395,
+        "brier90": 0.14499083714531114
+      }
+    },
+    "gaussianprocess": {
+      "loo": {
+        "r2": 0.18756265323762622,
+        "rmse_pp": 9.388866063333682,
+        "auc85": 0.6276923076923078,
+        "brier85": 0.24456099893204758,
+        "auc90": 0.5358243451463791,
+        "brier90": 0.1441899780141855
+      },
+      "loso": {
+        "r2": 0.04613985664345743,
+        "rmse_pp": 10.173269634202232,
+        "auc85": 0.5632820512820513,
+        "brier85": 0.26041767316367037,
+        "auc90": 0.5142526964560863,
+        "brier90": 0.14795594144512558
+      }
+    }
+  },
+  "protected_files_unchanged": 97,
+  "checked_table_cells": 231,
+  "unresolved": [
+    "Historical search date/strategies; complete screening of the documented 2 November update",
+    "Screening-stage allocation: 32 excluded records versus 78 reported full texts",
+    "13 arms below the nominal 40-patient threshold and quasi-random Ref 81",
+    "New-author contributions and final manuscript approvals",
+    "Genuine Bayesian LOSO and nested RFE validation unavailable",
+    "Historical missingness flags differ from current missing-value counts"
+  ],
+  "small_arms": [
+    {
+      "ref": "84",
+      "arm": "TPZ50-Triple-10d",
+      "n": 33
+    },
+    {
+      "ref": "84",
+      "arm": "TPZ100-Triple-10d",
+      "n": 33
+    },
+    {
+      "ref": "84",
+      "arm": "VPZ-Triple-10d",
+      "n": 33
+    },
+    {
+      "ref": "89",
+      "arm": "RPZ-Conc-14d",
+      "n": 38
+    },
+    {
+      "ref": "89",
+      "arm": "RPZ-Conc-DD-10d",
+      "n": 37
+    },
+    {
+      "ref": "89",
+      "arm": "RPZ-Conc-HD-10d",
+      "n": 38
+    },
+    {
+      "ref": "90",
+      "arm": "STT-Standard-Triple",
+      "n": 24
+    },
+    {
+      "ref": "90",
+      "arm": "VDT-Vonoprazan-Dual",
+      "n": 22
+    },
+    {
+      "ref": "90",
+      "arm": "VTT-Vonoprazan-Triple",
+      "n": 26
+    },
+    {
+      "ref": "97",
+      "arm": "LAD-7d",
+      "n": 33
+    },
+    {
+      "ref": "97",
+      "arm": "LAD-10d",
+      "n": 33
+    },
+    {
+      "ref": "104",
+      "arm": "Empirical-Triple-10d",
+      "n": 36
+    },
+    {
+      "ref": "104",
+      "arm": "PCR-Tailored-10d",
+      "n": 36
+    }
+  ],
+  "supplementary_study_counts": {
+    "paper/my_version/supp_table_s1.tex": {
+      "studies": 60,
+      "arms": 140,
+      "patients": 17887
+    },
+    "paper/supp_table_s1.tex": {
+      "studies": 60,
+      "arms": 140,
+      "patients": 17887
+    },
+    "paper/with rob test/supp_table_s1.tex": {
+      "studies": 60,
+      "arms": 140,
+      "patients": 17887
+    }
+  },
+  "excluded_record_count": 32
+}

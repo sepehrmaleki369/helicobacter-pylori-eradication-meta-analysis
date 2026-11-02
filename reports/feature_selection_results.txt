@@ -1,0 +1,88 @@
+Feature selection comparison — Round 2 dataset (142 arms)
+======================================================================
+
+── Feature sets evaluated ──
+  All-39 (baseline)      (39 features)
+  SHAP top-8             (8 features)
+  SHAP top-12            (12 features)
+  SHAP top-18            (18 features)
+  Lasso-retained         (16 features)
+  RFE top-10             (10 features)
+
+── Full results: feature set × model × CV scheme ──
+Feature set            Model            LOO-RMSE   LOO-R²   LOSO-RMSE   LOSO-R²
+  All-39 (baseline)    ElasticNet           9.99   +0.080       10.48    -0.013
+  All-39 (baseline)    RandomForest         9.24   +0.213       10.24    +0.033
+  All-39 (baseline)    GradientBoost        8.60   +0.318       10.44    -0.004
+  SHAP top-8           ElasticNet           9.56   +0.157        9.86    +0.104
+  SHAP top-8           RandomForest         9.23   +0.214       10.10    +0.060
+  SHAP top-8           GradientBoost        8.49   +0.336        9.65    +0.142
+  SHAP top-12          ElasticNet           9.85   +0.105       10.14    +0.053
+  SHAP top-12          RandomForest         9.27   +0.208       10.22    +0.037
+  SHAP top-12          GradientBoost        8.58   +0.321        9.89    +0.099
+  SHAP top-18          ElasticNet           9.92   +0.093       10.25    +0.032
+  SHAP top-18          RandomForest         9.20   +0.220       10.18    +0.044
+  SHAP top-18          GradientBoost        8.55   +0.326       10.32    +0.018
+  Lasso-retained       ElasticNet           9.18   +0.223        9.81    +0.112
+  Lasso-retained       RandomForest         9.41   +0.184       10.19    +0.043
+  Lasso-retained       GradientBoost        8.70   +0.303       10.96    -0.107
+  RFE top-10           ElasticNet           9.86   +0.104       10.15    +0.050
+  RFE top-10           RandomForest         9.29   +0.204       10.09    +0.062
+  RFE top-10           GradientBoost        8.74   +0.296       10.87    -0.089
+
+── Top 5 by LOSO R² ──
+  1. SHAP top-8             GradientBoost  LOSO R²=0.142, LOO R²=0.336
+  2. Lasso-retained         ElasticNet     LOSO R²=0.112, LOO R²=0.223
+  3. SHAP top-8             ElasticNet     LOSO R²=0.104, LOO R²=0.157
+  4. SHAP top-12            GradientBoost  LOSO R²=0.099, LOO R²=0.321
+  5. RFE top-10             RandomForest   LOSO R²=0.062, LOO R²=0.204
+
+── SHAP top-18 features ──
+   1. Mean_Age_yr                      1.932
+   2. CLR_Resistance_pct               1.701
+   3. CLR_use_x_CLR_resistance         1.655
+   4. PPI_Daily_mg                     1.637
+   5. Duration_Days                    1.342
+   6. LFX_Resistance_pct               1.326
+   7. Is_Vonoprazan                    0.900
+   8. Has_Metronidazole                0.847
+   9. MTZ_Resistance_pct               0.746
+  10. Is_Standard_PPI                  0.561
+  11. AMX_Resistance_pct               0.557
+  12. Is_Dual                          0.480
+  13. Is_PCAB                          0.410
+  14. Study_Era                        0.376
+  15. Is_Triple                        0.365
+  16. Is_Quadruple                     0.322
+  17. Amox_Daily_mg                    0.278
+  18. Study_Era_missing                0.236
+
+── Lasso-retained features ──
+  Is_Triple
+  Is_Quadruple
+  Is_Vonoprazan
+  Is_Standard_PPI
+  Has_Metronidazole
+  PPI_Daily_mg
+  Amox_Daily_mg
+  Duration_Days
+  MTZ_Resistance_pct
+  CLR_use_x_CLR_resistance
+  Is_Western
+  Is_South_Asia_ME
+  Is_Latin_America
+  Is_Susceptibility_Guided
+  Study_Era
+  Study_Era_missing
+
+── RFE top-10 features ──
+  Is_Quadruple
+  Is_Standard_PPI
+  Is_Bismuth_Quad
+  CLR_Resistance_pct
+  MTZ_Resistance_pct
+  AMX_Resistance_pct
+  CLR_use_x_CLR_resistance
+  Is_High_CLR_Region
+  Is_High_AMX_Region
+  Is_Latin_America

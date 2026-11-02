@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript when published. This is an unpublished analysis snapshot."
+title: "Predicting and explaining Helicobacter pylori eradication efficacy across 140 RCT arms"
+type: software
+version: "2026-11-02-review"
+repository-code: "https://github.com/sepehrmaleki369/helicobacter-pylori-eradication-meta-analysis"
+authors:
+  - family-names: "Maleki"
+    given-names: "Sepehr"
+  - family-names: "Mohaghegh Shalmani"
+    given-names: "Hamid"
+  - family-names: "Ehsani-Ardakani"
+    given-names: "Mohammad Javad"
+  - family-names: "Jahani-Sherafat"
+    given-names: "Somayeh"

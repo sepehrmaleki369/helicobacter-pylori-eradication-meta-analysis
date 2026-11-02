@@ -1,0 +1,16 @@
+Extended model comparison — all model families
+======================================================================
+
+Dataset: 140 arms, 60 studies
+Feature set: pretreat (39 features)
+Weighting: by N_ITT
+
+Rank  Model                                LOSO-RMSE   LOSO-R²   LOO-R²
+  1   Bayesian hierarchical (marginal)          9.26    +0.209       n/a
+  2   GaussianProcess                          10.17    +0.046    +0.188
+  3   RandomForest                             10.24    +0.033    +0.213
+  4   LightGBM                                 10.24    +0.033    +0.204
+  5   GradientBoost (sklearn)                  10.44    -0.004    +0.318
+  6   ElasticNet                               10.48    -0.013    +0.080
+  7   XGBoost                                  10.52    -0.019    +0.341
+  8   BART                                     10.55    -0.026       n/a

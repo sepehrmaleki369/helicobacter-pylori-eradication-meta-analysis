@@ -1,0 +1,68 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.spyproject/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+
+# Large / temporary
+*.tmp
+*.bak
+*~
+
+# Source PDFs of included RCTs — NEVER commit (copyright)
+complete papers/
+papers_29_79/
+"find name/"
+"new japan and korea/"
+*.pdf
+!figures/**/*.png
+
+# Manuscript kept outside repo
+paper/
+
+# Private notes
+.claude/
+status.md
+
+# Isolated historical reruns and licensed source files
+outputs/
+source_pdfs/*.pdf

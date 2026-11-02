@@ -1,0 +1,53 @@
+H. pylori meta-analytic models — Tier 2 + Tier 3 results
+========================================================================
+
+Dataset: 140 arms, 60 unique studies, 17887 total patients
+
+── Tier 2 Binomial GLM (FULL) — Coefficient table ──
+                     Generalized Linear Model Regression Results                     
+=====================================================================================
+Dep. Variable:     ['Successes', 'Failures']   No. Observations:                  140
+Model:                                   GLM   Df Residuals:                      123
+Model Family:                       Binomial   Df Model:                           16
+Link Function:                         Logit   Scale:                          1.0000
+Method:                                 IRLS   Log-Likelihood:                -623.76
+Date:                       Wed, 29 Jul 2026   Deviance:                       625.61
+Time:                               16:23:17   Pearson chi2:                     639.
+No. Iterations:                            5   Pseudo R-squ. (CS):             0.9001
+Covariance Type:                     cluster                                         
+============================================================================================
+                               coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+Intercept                   -1.0535      1.956     -0.539      0.590      -4.887       2.780
+Is_Vonoprazan                0.5166      0.131      3.950      0.000       0.260       0.773
+Is_Tegoprazan                0.1067      0.177      0.604      0.546      -0.240       0.453
+Is_Dual                      0.0372      0.285      0.131      0.896      -0.521       0.595
+Is_Quadruple                 0.2660      0.236      1.125      0.260      -0.197       0.729
+Has_Bismuth                  0.0175      0.272      0.064      0.949      -0.515       0.550
+Has_Clarithromycin          -0.0681      0.223     -0.306      0.760      -0.505       0.369
+Has_Metronidazole            0.3449      0.178      1.932      0.053      -0.005       0.695
+Duration_Days                0.0636      0.039      1.638      0.101      -0.012       0.140
+CLR_Resistance_pct           0.0096      0.013      0.746      0.456      -0.016       0.035
+MTZ_Resistance_pct          -0.0064      0.006     -1.091      0.275      -0.018       0.005
+AMX_Resistance_pct          -0.0008      0.022     -0.036      0.971      -0.044       0.042
+CLR_use_x_CLR_resistance    -0.0112      0.006     -1.788      0.074      -0.023       0.001
+Is_East_Asia                 0.2543      0.191      1.335      0.182      -0.119       0.628
+Mean_Age_yr                  0.0079      0.010      0.770      0.441      -0.012       0.028
+Is_Susceptibility_Guided     0.2435      0.286      0.851      0.395      -0.317       0.804
+Compliance_pct               0.0120      0.019      0.631      0.528      -0.025       0.049
+============================================================================================
+
+── Tier 2B Cluster bootstrap (FULL formula) ──
+  Is_Vonoprazan                OR=1.73  [1.34, 2.31]  n_boots=2000
+  Is_Tegoprazan                OR=1.13  [0.71, 1.65]  n_boots=2000
+  Duration_Days                OR=1.08  [0.98, 1.16]  n_boots=2000
+  Is_Quadruple                 OR=1.24  [0.66, 2.16]  n_boots=2000
+  Has_Bismuth                  OR=1.05  [0.54, 2.06]  n_boots=2000
+  Is_East_Asia                 OR=1.23  [0.73, 1.86]  n_boots=2000
+  Compliance_pct               OR=1.02  [0.97, 1.06]  n_boots=2000
+  CLR_Resistance_pct           OR=1.01  [0.98, 1.04]  n_boots=2000
+
+── Tier 3 Beta regression LOSO ──
+  T1 ElasticNet          RMSE=0.1024  Brier=0.0105  slope=0.652  int=0.278
+  T2 Binomial GLM        RMSE=0.1033  Brier=0.0107  slope=0.527  int=0.382
+  T3 Beta Regression     RMSE=0.1023  Brier=0.0105  slope=0.560  int=0.358

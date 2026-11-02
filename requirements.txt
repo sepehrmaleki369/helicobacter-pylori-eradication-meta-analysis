@@ -1,0 +1,35 @@
+# Python 3.13.3 — exact versions used to produce all results in the manuscript.
+# Install: python3.13 -m pip install -r requirements.txt
+
+# Core ML
+scikit-learn==1.8.0
+xgboost==3.2.0
+lightgbm==4.6.0
+shap==0.51.0
+
+# Bayesian
+pymc==5.28.5
+nutpie==0.16.9
+pymc-bart==0.11.0
+arviz==0.23.4
+
+# Statistical inference
+statsmodels==0.14.6
+
+# Data + numerics
+pandas==3.0.2
+numpy==2.4.3
+scipy==1.17.1
+
+# Figures
+matplotlib==3.10.8
+
+# PDF text extraction (used in data-verification pipeline)
+pypdf>=4.0.0
+
+# Supporting extraction, workbook, document and reporting dependencies
+pdfplumber==0.11.9
+openpyxl==3.1.5
+python-docx==1.2.0
+patsy==1.0.2
+Pillow==12.1.1

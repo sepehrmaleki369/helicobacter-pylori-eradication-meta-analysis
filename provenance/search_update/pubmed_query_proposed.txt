@@ -1,0 +1,18 @@
+(
+  "Helicobacter pylori"[mh]
+  OR "Helicobacter pylori"[tiab]
+  OR "H pylori"[tiab]
+  OR "H. pylori"[tiab]
+)
+AND
+(
+  "randomized controlled trial"[pt]
+  OR "controlled clinical trial"[pt]
+  OR random*[tiab]
+  OR placebo*[tiab]
+  OR trial[tiab]
+  OR "drug therapy"[sh]
+  OR groups[tiab]
+)
+NOT (animals[mh] NOT humans[mh])
+AND 2010/01/01:2026/11/02[dp]

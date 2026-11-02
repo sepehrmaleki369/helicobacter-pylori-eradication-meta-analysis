@@ -1,0 +1,39 @@
+Final Predictive Model — RFE top-10 + RandomForest
+======================================================================
+
+Dataset: 140 arms, 60 studies
+Target: ITT_Rate (%) · Weights: N_ITT
+
+── Selected features (RFE, Ridge-based, K=10) ──
+   1. Is_Quadruple
+   2. Is_Standard_PPI
+   3. Is_Bismuth_Quad
+   4. CLR_Resistance_pct
+   5. MTZ_Resistance_pct
+   6. AMX_Resistance_pct
+   7. CLR_use_x_CLR_resistance
+   8. Is_High_CLR_Region
+   9. Is_High_AMX_Region
+  10. Is_Latin_America
+
+── Cross-validated performance ──
+  LOO-arm:    RMSE=9.31%, R²=+0.202, slope=1.075
+  LOSO-study: RMSE=10.13%, R²=+0.054, slope=0.660
+
+── SHAP attributions (mean |SHAP|) ──
+    2.18  ↓  CLR_use_x_CLR_resistance
+    1.43  ↑  CLR_Resistance_pct
+    1.22  ↓  Is_Standard_PPI
+    0.86  ↑  Is_Quadruple
+    0.72  ↓  AMX_Resistance_pct
+    0.71  ↓  MTZ_Resistance_pct
+    0.08  ↓  Is_High_CLR_Region
+    0.06  ↑  Is_Bismuth_Quad
+    0.01  ↓  Is_High_AMX_Region
+    0.00  ↓  Is_Latin_America
+
+── Comparison with baseline + Bayesian ──
+Model                                      n_feat   LOSO R²   LOSO RMSE
+  Final predictive (RFE-10 + RF)               10    +0.054       10.13
+  All-39 features (RF baseline)                39    +0.015       10.25
+  Bayesian hierarchical (marginal, 15 features)       15    +0.209        9.26

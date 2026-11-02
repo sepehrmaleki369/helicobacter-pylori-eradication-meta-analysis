@@ -1,0 +1,33 @@
+Tier C-E — Publication-grade analyses
+======================================================================
+
+── Subgroup × treatment interactions (cluster-robust SE) ──
+  Vonoprazan × East Asia                   OR=1.10  [0.67, 1.82]  p=0.7072  
+  Vonoprazan × High CLR region             OR=2.03  [1.39, 2.97]  p=0.0003 *
+  Duration × Is_Dual                       OR=1.11  [0.97, 1.28]  p=0.1403  
+
+── Stratified analyses (Vonoprazan OR within subgroups) ──
+  All arms                     n=140  OR=1.65  [1.24, 2.20]
+  East Asia only               n= 97  OR=1.69  [1.26, 2.27]
+  Non-East Asia                n= 43  OR=1.62  [1.12, 2.35]
+  High CLR region (≥30%)       n=101  OR=1.98  [1.53, 2.57]
+  Low CLR region (<30%)        n= 39  OR=1.04  [0.65, 1.65]
+  Multicenter only             n= 47  OR=1.58  [1.14, 2.19]
+  Single center only           n= 93  OR=1.93  [1.28, 2.91]
+
+── Sensitivity analyses (drop categories) ──
+  Main analysis (no exclusion)        n=140  OR=1.65  [1.24, 2.20]
+  Drop quality-flagged                n= 40  OR=1.75  [1.16, 2.64]
+  Drop susceptibility-guided          n=134  OR=1.70  [1.27, 2.27]
+  Drop regional-estimate resistance   n= 40  OR=1.75  [1.16, 2.64]
+  Drop small arms (N_ITT < 50)        n=123  OR=1.67  [1.24, 2.27]
+  Drop dropout-heavy arms             n=140  OR=1.65  [1.24, 2.20]
+
+── Heterogeneity (vonoprazan vs comparator, 18 paired studies) ──
+  Pooled OR (random-effects): 1.75  [1.36, 2.25]
+  Cochran Q:     40.61  (df=17, p=0.0011)
+  τ² (DL):       0.1490
+  I²:            58.1%
+
+── Publication bias (Egger regression) ──
+  Egger intercept: 0.139  (p=0.8827)
